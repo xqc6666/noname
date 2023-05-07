@@ -7,6 +7,8 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
 				//当前分，最高分，胜场，败场，总场，最高连胜，当前连胜，星星总数
 				//修改为士气分，士气上限
 				function updatetianti() {//获取刷新后的值
+
+					
 					count0 = lib.config['tianti_' + get.mode() + "_" + _status.mode].count;
 					top0 = lib.config['tianti_' + get.mode() + "_" + _status.mode].top;
 					win0 = lib.config['tianti_' + get.mode() + "_" + _status.mode].win;
